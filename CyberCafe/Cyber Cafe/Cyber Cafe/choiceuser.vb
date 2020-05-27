@@ -1,0 +1,13 @@
+﻿Public Class choiceuser
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Hide()
+        LogInDetails.Show()
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Hide()
+        Existing_User_Form.Show()
+
+    End Sub
+End Class
